@@ -22,6 +22,10 @@ This documentation defines the native Android Local-First AI Development Worksta
 | DOC-14 | [Project work plan](08-project-management/work-plan.md) | Execution and change governance |
 | DOC-15 | [Technical decisions](09-decisions/decision-log.md) | Decision records and open questions |
 
+## Technical specifications (DOC-16–28)
+
+The detailed engineering baseline is in [10 — Technical Specifications](10-technical-specifications/). It covers Android modules, data model, workspace filesystem, command execution, agent tool contracts, privacy/network modes, on-device inference, resource benchmarks, UI workflows, threat model, build/release, acceptance tests and implementation backlog.
+
 ## Evidence labels
 
 - **Observed:** directly shown by the repository or supplied device evidence.
