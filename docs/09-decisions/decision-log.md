@@ -24,6 +24,12 @@
 **Decision:** CPU inference is mandatory fallback; GPU/Vulkan acceleration is experimental until device verification.  
 **Reason:** Exact GPU/driver capabilities are not yet established.
 
+## ADR-005: CPU-first inference feasibility
+
+**Status:** Accepted as implementation direction, pending target-device proof  
+**Decision:** Continue with a native Kotlin/Compose app and treat llama.cpp as the first CPU-inference candidate. Do not require Vulkan or NPU support for the initial architecture.  
+**Reason:** The device vendor confirms Snapdragon 685 and Adreno 610, but exact ABI, Vulkan feature exposure, driver behavior, memory headroom and sustained inference performance remain unverified. Current llama.cpp documentation provides an Android NDK arm64-v8a route, which must still pass a handset proof-of-concept.
+
 ## Open decisions
 
 - Minimum Android version.
