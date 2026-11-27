@@ -26,6 +26,12 @@ This documentation defines the native Android Local-First AI Development Worksta
 
 The detailed engineering baseline is in [10 — Technical Specifications](10-technical-specifications/). It covers Android modules, data model, workspace filesystem, command execution, agent tool contracts, privacy/network modes, on-device inference, resource benchmarks, UI workflows, threat model, build/release, acceptance tests and implementation backlog.
 
+## Feasibility and device validation (DOC-29–31)
+
+- [Device and platform feasibility](11-feasibility/device-and-platform-feasibility.md)
+- [Target device validation protocol](11-feasibility/target-device-validation-protocol.md)
+- [Technology validation matrix](11-feasibility/technology-validation-matrix.md)
+
 ## Evidence labels
 
 - **Observed:** directly shown by the repository or supplied device evidence.
